@@ -38,14 +38,12 @@ $config['cookie_secure']	= FALSE;
 $config['cookie_httponly'] 	= FALSE;
 $config['standardize_newlines'] = FALSE;
 $config['global_xss_filtering'] = FALSE;
-
 $config['csrf_protection'] = FALSE;
 $config['csrf_token_name'] = 'csrf_test_name';
 $config['csrf_cookie_name'] = 'csrf_cookie_name';
 $config['csrf_expire'] = 3600;
 $config['csrf_regenerate'] = TRUE;
 $config['csrf_exclude_uris'] = array();
-
 $config['compress_output'] = FALSE;
 $config['time_reference'] = 'local';
 $config['rewrite_short_tags'] = FALSE;
